@@ -252,9 +252,16 @@
 		</site>
 	</distributionManagement>
 
+	<repositories>
+		<repository>
+			<id>apache-stable</id>
+			<url>https://repository.apache.org/content/groups/staging/</url>
+		</repository>
+	</repositories>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tapestry-release-version>5.2.6</tapestry-release-version>
+		<tapestry-release-version>5.3-beta-1</tapestry-release-version>
 		<compileSource>1.5</compileSource>
 	</properties>
 </project>
